@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+  padding: 1rem;
+}
+.signature-form {
+  max-width: 300px;
+  margin: 0 auto;
+}
+.signature-pad {
+  cursor: url(pen.png) 1 26, pointer;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+.clear {
+  color: rgb(21, 114, 83);
+  text-decoration: none;
+  font-size: 1rem;
+}
+.submit {
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  border: none;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+@media (pointer: coarse) {
+  body {
+    overflow: hidden;
+  }
+}
